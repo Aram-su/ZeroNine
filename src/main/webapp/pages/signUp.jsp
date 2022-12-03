@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>회원가입</title>
+  <title>ZERO 9 - 회원가입</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -25,7 +25,7 @@
         
         <hr class="mb-4">
         
-        <form id="signUpForm" method="post" action="signUpProcess.jsp">
+        <form id="signUpForm" method="post" action="processSignUp.jsp">
           <div class="row row1">
             <div class="con col-md-6 mb-3">
               <label for="name">이름</label>
@@ -56,12 +56,6 @@
             <label for="address">주소</label>
             <input type="text" class="form-control" name="address" id="address" placeholder="수원시 연무동" required>
           </div>
-
-          <div class="mb-3">
-            <label for="address2">상세주소<span class="text-muted">&nbsp;(선택)</span></label>
-            <input type="text" class="form-control" id="address2" placeholder="상세주소를 입력해주세요.">
-          </div>
-
 
           <hr class="mb-4">
           <div class="mb-4"></div>
